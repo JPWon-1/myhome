@@ -36,7 +36,7 @@ const About = () => {
                 <h1>Social Links</h1>
                 <p>
                     <a href="https://blog.naver.com/alclsshas511">네이버 블로그</a><br/>
-                    <a href="https://github.com/JPWon-1">깃헙:JPWon-1</a>
+                    Git-hub:<a href="https://github.com/JPWon-1">JPWon-1</a>
                 </p>
             </div>
         </div>

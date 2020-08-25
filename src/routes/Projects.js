@@ -8,15 +8,15 @@ const Projects = () => {
             <p>Select any of the projects below for more information about the project and my involvement.</p>
             <div id="project-list" className="row">
                 <div className="col-lg-4 col-md-6 col-sm-6">
-                    <h4><Link to="/projects/bitcamp">Bitcamp</Link></h4>
+                    <h4><Link to="/myhome/projects/bitcamp">Bitcamp</Link></h4>
                     <p>Camping equipment rental site</p>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-6">
-                    <h4><Link to="/projects/movie">Movie-App</Link></h4>
+                    <h4><Link to="/myhome/projects/movie">Movie-App</Link></h4>
                     <p>Camping equipment rental site</p>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-6">
-                    <h4><Link to="/projects/todo">To-Do-App</Link></h4>
+                    <h4><Link to="/myhome/projects/todo">To-Do-App</Link></h4>
                     <p>Camping equipment rental site</p>
                 </div>
 
