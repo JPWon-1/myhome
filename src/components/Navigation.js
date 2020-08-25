@@ -28,9 +28,9 @@ const Navigation = () => {
                         </li>
                     </ul>
                 </div>
-                <ul id="navigation">
+                {/* <ul id="navigation">
                     <li><Link to="">Contact</Link></li>
-                </ul>
+                </ul> */}
             </nav>
         </>
     );

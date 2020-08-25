@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.146ca3ef.chunk.css",
+    "main.js": "/static/js/main.aed029f2.chunk.js",
+    "main.js.map": "/static/js/main.aed029f2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0111bebd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0111bebd.js.map",
+    "static/js/2.1307e471.chunk.js": "/static/js/2.1307e471.chunk.js",
+    "static/js/2.1307e471.chunk.js.map": "/static/js/2.1307e471.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9cc3eb0697b3c68c5db7fcb67912c072.js": "/precache-manifest.9cc3eb0697b3c68c5db7fcb67912c072.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.146ca3ef.chunk.css.map": "/static/css/main.146ca3ef.chunk.css.map",
+    "static/js/2.1307e471.chunk.js.LICENSE.txt": "/static/js/2.1307e471.chunk.js.LICENSE.txt",
+    "static/media/resume.pdf": "/static/media/resume.2c8197d6.pdf",
+    "static/media/뉴욕1.jpg": "/static/media/뉴욕1.8a439cea.jpg",
+    "static/media/호주3.jpg": "/static/media/호주3.04a6e9c3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0111bebd.js",
+    "static/js/2.1307e471.chunk.js",
+    "static/css/main.146ca3ef.chunk.css",
+    "static/js/main.aed029f2.chunk.js"
+  ]
+}
