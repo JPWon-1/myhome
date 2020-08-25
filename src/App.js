@@ -43,7 +43,7 @@ function App() {
         <Navigation />
 
         <div className='content-box'>
-          <Route path="/myhome/" component={Home} exact={true}/>
+          <Route path="/" component={Home} exact={true}/>
           <Route path="/myhome/about" component={About} />
           <Route path="/myhome/projects" component={Projects}/>
           <Route path="/myhome/projects/bitcamp" component={Bitcamp}/>
