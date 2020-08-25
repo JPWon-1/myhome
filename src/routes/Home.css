@@ -1,0 +1,123 @@
+.main-container {
+    width: 1200px;
+    margin: 0 auto;
+    /* overflow:auto; */
+}
+
+.intro-wrapper {
+    border-radius: 5px 5px 0 0;
+    -webkit-box-shadow: 5px 3px 10px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 3px 10px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 3px 10px 3px rgba(0, 0, 0, 0.75);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'nav-wrapper nav-wrapper' 'left-column right-column';
+}
+
+.nav-wrapper {
+    border-radius: 5px 5px 0 0;
+    grid-area: nav-wrapper;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dots-wrapper {
+    display: flex;
+    padding: 10px;
+}
+
+#dot-1 {
+    background-color: #FC6058;
+}
+
+#dot-2 {
+    background-color: #FEC02F;
+}
+
+#dot-3 {
+    background-color: #2ACA3E;
+}
+
+.browser-dot {
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 5px;
+    -webkit-box-shadow: 5px 3px 10px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 3px 10px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 3px 10px 3px rgba(0, 0, 0, 0.75);
+}
+
+#profile_pic {
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+#profile_note1 {
+    text-align: center;
+}
+
+#profile-note2 {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
+.corner {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1.5px solid #17a2b8;
+    background-color: #fff;
+    position: absolute;
+}
+
+#corner-tl {
+    top: -5px;
+    left: -5px;
+}
+
+#corner-tr {
+    top: -5px;
+    right: -5px;
+}
+
+#corner-bl {
+    bottom: -5px;
+    left: -5px;
+}
+
+#corner-br {
+    bottom: -5px;
+    right: -5px;
+}
+#preview {
+    width: 300px;
+    border: 1.5px solid #17a2b8;
+    padding: 15px;
+    position: relative;
+}
+
+@media screen and (max-width:1200px) {
+    .main-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+  }
+  @media screen and (max-width:800px) {
+    .intro-wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'nav-wrapper'
+        'left-column'
+        'right-column';
+    }
+    .right-column{
+        justify-content:center;
+    }
+  } 

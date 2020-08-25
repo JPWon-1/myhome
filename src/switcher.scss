@@ -1,0 +1,163 @@
+.jumbotron.text-center {
+  margin: 0;
+  border-radius: 0;
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+.content-box {
+  min-height: 800px;
+  margin: 0 auto;
+  background-color: #eee;
+  color: #222;
+  border-radius: 8px;
+  padding: 30px 30px 40px 30px;
+  // max-width: 800px;
+  h3 {
+    line-height: 1.2;
+    margin: 0;
+    font-size: 26px;
+  }
+  h5 {
+    line-height: 1.5;
+    margin: 0 0 22px 0;
+    font-size: 20px;
+  }
+}
+
+.App.theme-blue {
+  background-color: #bec7e7;
+  .content-box {
+    background-color: #d8def4;
+    h1,
+    h3,
+    h5 {
+      color: #1e41c1;
+    }
+    p {
+      color: #000;
+    }
+  }
+}
+.App.theme-orange {
+  background-color: #f4c9b7;
+  .content-box {
+    background-color: #f4dfd6;
+    h1,
+    h3,
+    h5 {
+      color: #b64b1e;
+    }
+    p {
+      color: #000;
+    }
+  }
+}
+.App.theme-purple {
+  background-color: #d0b7f4;
+  color: #000;
+  .content-box {
+    background-color: #ecdfff;
+    h1,
+    h3,
+    h5 {
+      color: #7852ae;
+    }
+    p {
+      color: #000;
+    }
+  }
+}
+.App.theme-green {
+  background-color: #c3e3c1;
+  .content-box {
+    background-color: #e2f6e1;
+    h1,
+    h3,
+    h5 {
+      color: #5faf3b;
+    }
+    p {
+      color: #000;
+    }
+  }
+}
+.App.theme-black {
+  background-color: #5c5c5c;
+  .content-box {
+    background-color: #333;
+    h1,
+    h3,
+    h5 {
+      color: #ffffff;
+    }
+    p {
+      color: #ccc;
+    }
+  }
+}
+
+#changeTheme {
+  position: fixed;
+  right: 10px;
+  bottom: 19px;
+  display: inline-block;
+  z-index: 100;
+  button {
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    outline: 0;
+    z-index: 200;
+    cursor: pointer;
+    opacity:0.5;
+  }
+  button:hover{
+    opacity:1
+  }
+}
+
+#theme-options-wrapper {
+  display: none;
+  position: absolute;
+  top: -40px;
+  right: 0px;
+  justify-content: center;
+  #theme-white {
+    background-color: #eee;
+  }
+  #theme-blue {
+    background-color: #1e41c1;
+  }
+  #theme-orange {
+    background-color: #b64b1e;
+  }
+  #theme-purple {
+    background-color: #7852ae;
+  }
+  #theme-green {
+    background-color: #5faf3b;
+  }
+  #theme-black {
+    background-color: #000;
+  }
+}
+
+.theme-dot {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 5px;
+  -webkit-box-shadow: 5px 3px 10px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 3px 10px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 3px 10px 3px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+.theme-dot:hover {
+  border-width: 5px;
+}
