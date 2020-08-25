@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import 'bootstrap/dist/css/bootstrap.css'
 import './App.css';
 import './switcher.scss'
 import { Route, BrowserRouter } from 'react-router-dom';
@@ -9,7 +10,6 @@ import Projects from './routes/Projects';
 import Bitcamp from './routes/Projects/Bitcamp.js'
 import Movie from './routes/Projects/Movie.js'
 import Todo from './routes/Projects/Todo.js'
-import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   //state
